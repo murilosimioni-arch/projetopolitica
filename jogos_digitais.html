@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Politica 2026</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f8;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* CABEÇALHO */
+
+        header {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 5px;
+        }
+
+        /* MENU */
+
+        nav {
+            background-color: #111;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00d4ff;
+        }
+
+        /* SEÇÕES */
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #167d9a;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        /* INÍCIO */
+
+        .inicio {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+        }
+
+        .inicio img {
+            width: 45%;
+            border-radius: 15px;
+        }
+
+        .inicio-texto {
+            width: 55%;
+        }
+
+        .inicio-texto h2 {
+            text-align: left;
+        }
+
+        /* CARDS */
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #167d9a;
+            margin-bottom: 10px;
+        }
+
+        /* ATIVIDADES */
+
+        .atividade {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 6px solid #00a8cc;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .atividade h3 {
+            color: #167d9a;
+            margin-bottom: 10px;
+        }
+
+        /* PROJETO */
+
+        .projeto {
+            background: linear-gradient(135deg, #16222a, #3a6073);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .projeto h2 {
+            color: white;
+        }
+
+        .botao {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #00a8cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .botao:hover {
+            background-color: #007d99;
+        }
+
+        /* REFLEXÃO */
+
+        .reflexao {
+            background-color: #e7f8fc;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .reflexao p {
+            font-size: 19px;
+        }
+
+        /* RODAPÉ */
+
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        /* RESPONSIVIDADE */
+
+        @media (max-width: 700px) {
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px;
+            }
+
+            .inicio {
+                flex-direction: column;
+            }
+
+            .inicio img,
+            .inicio-texto {
+                width: 100%;
+            }
+
+            .inicio-texto h2 {
+                text-align: center;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- CABEÇALHO -->
+
+    <header>
+
+        <h1>Politica 2026</h1>
+
+        <p></p>
+
+        <p>
+            Política, cidadania e participação para construir um futuro melhor.
+        </p>
+
+    </header>
+
+
+    <!-- MENU -->
+
+    <nav>
+
+        <a href="#inicio">Início</a>
+
+        <a href="#tecnologias">Tipos de Jogos</a>
+
+        <a href="#inovacao">Como são criados</a>
+
+        <a href="#atividades">Atividades</a>
+
+        <a href="#projeto">Projeto</a>
+
+    </nav>
+
+
+    <!-- INÍCIO -->
+
+    <section id="inicio">
+
+        <div class="inicio">
+
+            <img
+                src="images (1).jpeg"
+                alt="Jogos digitais e controles"
+            >
+
+            <div class="inicio-texto">
+
+                <h2>Bem-vindos site sobre Politica</h2>
+
+                <p>
+                    
+
+                <br>
+
+                <p>
+                    A política está presente em diversos aspectos da nossa vida e influencia diretamente o funcionamento da sociedade. Ela envolve a criação de leis, a administração dos recursos públicos e a busca por soluções para os problemas da população. Além disso, permite que os cidadãos participem das decisões coletivas por meio do voto, do diálogo e da participação social. Com responsabilidade, respeito e transparência, a política pode contribuir para uma sociedade mais justa, democrática e igualitária.
+
+
+
+                </p>
+
+                <br>
+
+                <p>
+                    
+                </p>
+
+                <br>
+
+                <p>
+                   
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TECNOLOGIAS -->
+
+    <section id="tecnologias">
+
+        <h2></h2>
+
+        <div class="cards">
+
+
+            <div class="card">
+
+                <img
+                    src="5894.jpeg"
+                    alt="Jogos de ação e aventura"
+                >
+
+                <h3>Flavio Bolsonaro</h3>
+
+                <p>
+                    Flávio Bolsonaro é um político brasileiro, filho de Jair Bolsonaro e senador pelo estado do Rio de Janeiro. Atua em temas como segurança pública e economia.
+
+
+
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <img
+                    src="images.jpeg"
+                    alt="Jogos retrô e arcade"
+                >
+
+                <h3>Luiz Inacio Lula da Silva</h3>
+
+                <p>
+                    Lula é um político brasileiro que foi presidente do Brasil pela primeira vez em 2003. Seu nome completo é Luiz Inácio Lula da Silva.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <img
+                    src="images (3).jpeg"
+                    alt="Jogos de estratégia"
+                >
+
+                <h3>Vice de Flavio Bolsonaro</h3>
+
+                <p>
+                    É advogado e foi promotor de Justiça no Ministério Público de Alagoas por 24 anos, além de procurador-geral de Justiça do estado e secretário de Segurança Pública.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <img
+                    src="images (2).jpeg"
+                    alt="Jogos digitais e videogame"
+                >
+
+                <h3>Vice de Lula</h3>
+
+                <p>
+                    Foi governador de São Paulo por quatro mandatos e adversário político de Lula na eleição presidencial de 2006 antes de se aliar à chapa em 2022.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- INOVAÇÃO -->
+
+    <section id="inovacao">
+
+        <h2>Projetos dos candidatos</h2>
+
+        <div class="cards">
+
+
+            <div class="card">
+
+                <h3>Flavio Bolsonaro</h3>
+
+                <p>
+                    Redução de impostos
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>Lula Ladrão</h3>
+
+                <p>
+                    Fim da escala 6x1
+                </p>
+
+            </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TECNOLOGIA E SOCIEDADE -->
+
+    <section>
+
+        <div class="reflexao">
+
+            <h2>Os dados mais recentes das principais sondagens apontam os seguintes números:</h2>
+
+            <p>
+                
+1. Pesquisa Quaest (Divulgada em 21/10/2026)
+
+Consulte os canais oficiais para verificar as intenções de voto atualizadas e a margem de erro detalhada da pesquisa encomendada pela Globo e pelo jornal O Globo.
+
+2. Avaliação do Governo Lula (Quaest - 21/10/2026)
+
+A aprovação da atual gestão também reflete a polarização do país:
+• Desaprovam o governo: 47%
+• Aprovam o governo: 46%
+• Avaliação negativa (ruim/péssimo): 38%
+• Avaliação positiva (ótimo/bom): 34%
+• Regular: 26%
+            </p>
+
+            
+        </div>
+
+    </section>
+
+
+    <!-- PROJETO FINAL -->
+
+    <section id="projeto">
+
+        <div class="projeto">
+
+            <h2>Resultados Finais da eleição</h2>
+
+                Lula roubão ladrão ficara mais 4 anos no mandato
+                <br>
+                Lula ganhou com: 51,79%
+                <br>
+                Flavio Bolsonaro perdeu com: 48,21% 
+                <br>
+            <a href="#inicio" class="botao">
+                Voltar ao início
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+            🎮 Jogos Digitais – 1º Ano do Ensino Médio
+        </p>
+
+        <p>
+            Imaginar. Programar. Jogar. Aprender.
+        </p>
+
+        <br>
+
+        <p>
+            © 2026 - Projeto Educacional
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
